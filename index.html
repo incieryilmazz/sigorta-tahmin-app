@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigorta Onay Tahmin Modeli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .description {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .launch-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+        .launch-btn:hover {
+            transform: translateY(-2px);
+        }
+        .features {
+            margin-top: 40px;
+            text-align: left;
+        }
+        .feature {
+            margin: 15px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 Sigorta Onay Tahmin Modeli</h1>
+        
+        <div class="description">
+            <p>Makine öğrenmesi ile sigorta teklif onay durumunu tahmin eden akıllı sistem.</p>
+            <p>Hem bireysel hem de kurumsal sigorta başvurularınız için optimal prim önerisi alın.</p>
+        </div>
+        
+        <a href="#" class="launch-btn" onclick="launchStreamlit()">
+            🚀 Uygulamayı Başlat
+        </a>
+        
+        <div class="features">
+            <h3>✨ Özellikler:</h3>
+            <div class="feature">🎯 <strong>Optimal Prim Önerisi:</strong> En yüksek onay şansı veren prim miktarını bulur</div>
+            <div class="feature">👤 <strong>Bireysel & Kurumsal:</strong> Her iki sigortalı tipi için özel tahmin</div>
+            <div class="feature">⚡ <strong>Anında Sonuç:</strong> Hızlı ve güvenilir tahmin algoritması</div>
+            <div class="feature">📊 <strong>Detaylı Analiz:</strong> Tahmin sürecinin şeffaf açıklaması</div>
+        </div>
+    </div>
+
+    <script>
+        function launchStreamlit() {
+            // Streamlit uygulamasını yeni sekmede aç
+            window.open('https://sigorta-tahmin-app.streamlit.app/', '_blank');
+        }
+    </script>
+</body>
+</html>
