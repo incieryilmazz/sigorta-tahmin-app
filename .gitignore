@@ -53,9 +53,9 @@ Thumbs.db
 .ipynb_checkpoints
 
 # Data files (keep models but ignore large data)
-*.csv
-*.xlsx
-*.xls
+# *.csv
+# *.xlsx
+# *.xls
 
 # Temporary files
 *.tmp
